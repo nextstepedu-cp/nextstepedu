@@ -451,6 +451,19 @@ h3 {
   font-weight: 800;
 }
 
+.org-logo-wrap {
+  width: 140px;
+  height: 140px;
+  display: grid;
+  place-items: center;
+}
+
+.org-logo {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
 .org-row {
   width: 100%;
   display: grid;
@@ -464,6 +477,10 @@ h3 {
 
 .org-card {
   color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 132px;
 }
 
 .org-line {

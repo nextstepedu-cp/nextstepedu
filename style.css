@@ -428,12 +428,6 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.org-chart {
-  display: grid;
-  gap: 18px;
-  justify-items: center;
-}
-
 .org-top,
 .org-level,
 .org-card {
@@ -490,7 +484,9 @@ h3 {
 }
 
 .org-mobile-stack {
-  display: none;
+  display: grid;
+  gap: 18px;
+  justify-items: center;
 }
 
 .location-panel {
@@ -687,16 +683,6 @@ h3 {
   .visual-panel,
   .photo-frame {
     min-height: 340px;
-  }
-
-  .org-chart {
-    display: none;
-  }
-
-  .org-mobile-stack {
-    display: grid;
-    gap: 18px;
-    justify-items: center;
   }
 
   .org-mobile-item {

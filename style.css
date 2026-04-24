@@ -378,6 +378,10 @@ h3 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
+.program-feature-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .highlight-box,
 .contact-panel {
   padding: 28px;
@@ -544,6 +548,10 @@ h3 {
   .company-feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .program-feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 980px) {
@@ -560,7 +568,8 @@ h3 {
   .gallery-grid,
   .contact-layout,
   .org-row,
-  .company-feature-grid {
+  .company-feature-grid,
+  .program-feature-grid {
     grid-template-columns: 1fr;
   }
 

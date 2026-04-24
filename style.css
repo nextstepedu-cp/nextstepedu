@@ -67,9 +67,18 @@ img {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: -0.03em;
+}
+
+.brand-logo {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
 }
 
 .nav {

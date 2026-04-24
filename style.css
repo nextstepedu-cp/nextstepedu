@@ -374,6 +374,11 @@ h3 {
   max-width: 640px;
 }
 
+.text-accent {
+  color: #c62828;
+  font-weight: 800;
+}
+
 .company-subnav {
   display: flex;
   flex-wrap: wrap;

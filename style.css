@@ -489,6 +489,10 @@ h3 {
   background: var(--line);
 }
 
+.org-mobile-stack {
+  display: none;
+}
+
 .location-panel {
   min-height: 360px;
 }
@@ -683,6 +687,23 @@ h3 {
   .visual-panel,
   .photo-frame {
     min-height: 340px;
+  }
+
+  .org-chart {
+    display: none;
+  }
+
+  .org-mobile-stack {
+    display: grid;
+    gap: 18px;
+    justify-items: center;
+  }
+
+  .org-mobile-item {
+    width: 100%;
+    display: grid;
+    gap: 12px;
+    justify-items: center;
   }
 }
 

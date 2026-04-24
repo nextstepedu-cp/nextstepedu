@@ -136,8 +136,16 @@
 
   <script>
     const contactForm = document.getElementById("contact-form");
+    const emailInput = document.getElementById("email");
 
-    contactForm.addEventListener("submit", () => {
+    contactForm.addEventListener("submit", (event) => {
+      if (!emailInput.value.includes("@")) {
+        event.preventDefault();
+        alert("이메일 주소를 올바르게 입력해주세요. '@'를 포함해야 합니다.");
+        emailInput.focus();
+        return;
+      }
+
       window.setTimeout(() => {
         alert("문의가 완료되었습니다.");
         contactForm.reset();
